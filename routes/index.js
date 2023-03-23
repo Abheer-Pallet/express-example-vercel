@@ -46,3 +46,5 @@ app.patch('/api/:id',(req , res)=> {
    
     
 });
+
+module.exports= app;

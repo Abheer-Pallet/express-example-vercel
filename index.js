@@ -3,7 +3,7 @@ const Router = require('./routes/index');
 const app = express();
 const port = process.env.PORT || 3000;
 app.use(express.json());
-app.use('/api',Router);
+app.use('/v1',Router);
 // const courses = [{id:"1", name : "Course1"},
 // {id:"2", name : "Course2"},
 // {id:"3", name : "Course3"}
